@@ -1,1 +1,25 @@
-backend/node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+restaurant-frontend/node_modules
+restaurant-frontend/.pnp
+restaurant-frontend/.pnp.js
+
+# testing
+restaurant-frontend/coverage
+
+# production
+restaurant-frontend/build
+
+# misc
+restaurant-frontend/.DS_Store
+restaurant-frontend/.env.local
+restaurant-frontend/.env.development.local
+restaurant-frontend/.env.test.local
+restaurant-frontend/.env.production.local
+
+restaurant-frontend/npm-debug.log*
+restaurant-frontend/yarn-debug.log*
+restaurant-frontend/yarn-error.log*
+
+backend/node_modules
